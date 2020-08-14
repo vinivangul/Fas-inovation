@@ -2254,17 +2254,8 @@ textarea.input {
 .category-nav {
   float: left;
   width: 270px;
+  margin-top: 10px;
 }
-
-.category-nav .category-header {
-  padding: 15px;
-  display: block;
-  text-transform: uppercase;
-  background: #eb0000;;
-  color: #FFF;
-  font-weight: 700;
-}
-
 .category-nav .category-header>i {
   float: right;
   line-height: 20px;
@@ -2272,8 +2263,9 @@ textarea.input {
 
 .category-nav .category-list {
   position: absolute;
-  width: 270px;
-  background-color: #FFF;
+  width: 260px;
+  margin-top: 3px;
+  background-color: wheat;
   border-left: 1px solid #DADADA;
   border-right: 1px solid #DADADA;
   border-bottom: 1px solid #DADADA;
