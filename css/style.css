@@ -2269,6 +2269,7 @@ textarea.input {
   border-left: 1px solid #DADADA;
   border-right: 1px solid #DADADA;
   border-bottom: 1px solid #DADADA;
+  border-radius: 5px;
   z-index: 50;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
