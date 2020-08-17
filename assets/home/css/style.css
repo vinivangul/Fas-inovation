@@ -347,7 +347,10 @@ textarea.input {
 #top-header {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #00c853;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #fafafa;
+    z-index: 22;
+    font-size: 12px;
 }
 
 .header-links li {
@@ -361,7 +364,7 @@ textarea.input {
 }
 
 .header-links li a {
-  color: #FFF;
+  color:black;
 }
 
 .header-links li a:hover {
@@ -380,7 +383,8 @@ textarea.input {
 #header {
   padding-top: 2px;
   padding-bottom: 2px;
-  background-color:  #1b5e20;
+  background-color:  #fff;
+  color: #000;
 }
 
 .header-logo {
@@ -417,7 +421,7 @@ textarea.input {
   height: 40px;
   width: 100px;
   background: #d50000;
-  color: #FFF;
+  color: black;
   font-weight: 700;
   border: none;
   border-radius: 0px 40px 40px 0px;
@@ -445,7 +449,7 @@ textarea.input {
   position: relative;
   width: 90px;
   text-align: center;
-  color: #FFF;
+  color: black;
 }
 
 .header-ctn>div>a>i {
@@ -536,7 +540,7 @@ textarea.input {
 
 .cart-dropdown .cart-btns>a:first-child {
   margin-right: -4px;
-  background-color: #00c853;
+  background-color: #fafafa;
 }
 
 .cart-dropdown .cart-btns>a:hover {
@@ -595,7 +599,7 @@ textarea.input {
     position: fixed;
     left: 0;
     top: 0;
-    background:  #1b5e20;
+    background:  #fff;
     height: 100vh;
     max-width: 250px;
     width: 0%;
@@ -919,7 +923,7 @@ textarea.input {
   padding: 10px;
   font-size: 12px;
   line-height: 10px;
-  background: #00c853;
+  background: #fafafa;
   color: #FFF;
   text-transform: uppercase;
   z-index: 10;
@@ -943,7 +947,7 @@ textarea.input {
   right: 1px;
   bottom: 1px;
   padding: 15px;
-  background: #00c853;
+  background: #fafafa;
   text-align: center;
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -1069,7 +1073,7 @@ textarea.input {
   text-align: center;
   font-size: 10px;
   padding: 0;
-  background: #00c853;
+  background: #fafafa;
   border: none;
   color: #FFF;
 }
@@ -1943,12 +1947,12 @@ textarea.input {
 ===========================================================*/
 
 #footer {
-  background:  #1b5e20;
+  background:  #fff;
   color: #B9BABC;
 }
 
 #bottom-footer {
-  background: #00c853;
+  background: #fafafa;
 }
 
 .footer {
@@ -1985,6 +1989,7 @@ textarea.input {
   margin-top: 30px;
   display: block;
   font-size: 12px;
+  color: #000;
 }
 
 .footer-payments li {
@@ -1993,7 +1998,7 @@ textarea.input {
 }
 
 .footer-payments li a {
-  color:  #1b5e20;
+  color:  black;
   font-size: 36px;
   display: block;
 }
