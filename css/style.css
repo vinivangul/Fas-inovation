@@ -45,7 +45,7 @@ ul, ol {
   background-color: #d50000;
   border: none;
   border-radius: 40px;
-  color: #FFF;
+  color: #000;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
@@ -55,7 +55,7 @@ ul, ol {
 
 .primary-btn:hover, .primary-btn:focus {
   opacity: 0.9;
-  color: #FFF;
+  color: #000;
 }
 
 /*----------------------------*\
@@ -196,7 +196,7 @@ textarea.input {
   top: -2px;
   left: 1px;
   font-size: 10px;
-  color: #FFF;
+  color: #000;
   opacity: 0;
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
@@ -347,7 +347,10 @@ textarea.input {
 #top-header {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #00c853;
+  background-color:#fafafa;
+  border-bottom: 1px solid #f2f2f2;
+  z-index: 22;
+  font-size: 12px;
 }
 
 .header-links li {
@@ -361,7 +364,7 @@ textarea.input {
 }
 
 .header-links li a {
-  color: #FFF;
+  color: #000;
 }
 
 .header-links li a:hover {
@@ -380,7 +383,7 @@ textarea.input {
 #header {
   padding-top: 2px;
   padding-bottom: 2px;
-  background-color:  #1b5e20;
+  background-color:  white;
 }
 
 .header-logo {
@@ -417,7 +420,7 @@ textarea.input {
   height: 40px;
   width: 100px;
   background: #d50000;
-  color: #FFF;
+  color: #000;
   font-weight: 700;
   border: none;
   border-radius: 0px 40px 40px 0px;
@@ -445,7 +448,7 @@ textarea.input {
   position: relative;
   width: 90px;
   text-align: center;
-  color: #FFF;
+  color: black;
 }
 
 .header-ctn>div>a>i {
@@ -467,7 +470,7 @@ textarea.input {
   text-align: center;
   border-radius: 50%;
   font-size: 10px;
-  color: #FFF;
+  color: black;
   background-color: #d50000;
 }
 
@@ -527,7 +530,7 @@ textarea.input {
   width: calc(50% - 0px);
   padding: 12px;
   background-color: #d50000;
-  color: #FFF;
+  color: #000;
   text-align: center;
   font-weight: 700;
   -webkit-transition: 0.2s all;
@@ -536,7 +539,7 @@ textarea.input {
 
 .cart-dropdown .cart-btns>a:first-child {
   margin-right: -4px;
-  background-color: #00c853;
+  background-color:#d50000;
 }
 
 .cart-dropdown .cart-btns>a:hover {
@@ -595,7 +598,7 @@ textarea.input {
     position: fixed;
     left: 0;
     top: 0;
-    background:  #1b5e20;
+    background:  white;
     height: 100vh;
     max-width: 250px;
     width: 0%;
@@ -627,7 +630,7 @@ textarea.input {
   }
   .main-nav>li>a {
     padding: 15px;
-    color: #FFF;
+    color: #000;
   }
 }
 
@@ -696,11 +699,11 @@ textarea.input {
 }
 
 .shop .shop-body h3 {
-  color: #FFF;
+  color: #000;
 }
 
 .shop .shop-body .cta-btn {
-  color: #FFF;
+  color: #000;
   text-transform: uppercase;
 }
 
@@ -747,7 +750,7 @@ textarea.input {
 }
 
 .hot-deal .hot-deal-countdown>li>div h3 {
-  color: #FFF;
+  color: #000;
   margin-bottom: 0px;
 }
 
@@ -755,7 +758,7 @@ textarea.input {
   display: block;
   font-size: 10px;
   text-transform: uppercase;
-  color: #FFF;
+  color: #000;
 }
 
 .hot-deal p {
@@ -818,7 +821,7 @@ textarea.input {
 .product .product-img .product-label>span.new {
   background-color: #d50000;
   border-color: #d50000;
-  color: #FFF;
+  color: #000;
 }
 
 .product .product-body {
@@ -919,8 +922,8 @@ textarea.input {
   padding: 10px;
   font-size: 12px;
   line-height: 10px;
-  background: #00c853;
-  color: #FFF;
+  background:#d50000;
+  color: #000;
   text-transform: uppercase;
   z-index: 10;
   opacity: 0;
@@ -943,7 +946,7 @@ textarea.input {
   right: 1px;
   bottom: 1px;
   padding: 15px;
-  background: #00c853;
+  background:#d50000;
   text-align: center;
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -965,7 +968,7 @@ textarea.input {
   height: 40px;
   padding: 0 30px;
   background-color: #d50000;
-  color: #FFF;
+  color: #000;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 40px;
@@ -1069,9 +1072,9 @@ textarea.input {
   text-align: center;
   font-size: 10px;
   padding: 0;
-  background: #00c853;
+  background:#d50000;
   border: none;
-  color: #FFF;
+  color: #000;
 }
 
 /*----------------------------*\
@@ -1252,7 +1255,7 @@ textarea.input {
 .store-grid li.active {
   background-color: #d50000;
   border-color: #d50000;
-  color: #FFF;
+  color: #000;
   cursor: default;
 }
 
@@ -1290,7 +1293,7 @@ textarea.input {
 .store-pagination li.active {
   background-color: #d50000;
   border-color: #d50000;
-  color: #FFF;
+  color: #000;
   font-weight: 500;
   cursor: default;
 }
@@ -1459,7 +1462,7 @@ textarea.input {
   height: 40px;
   padding: 0 30px;
   background-color: #ef233c;
-  color: #FFF;
+  color: #000;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 40px;
@@ -1709,7 +1712,7 @@ textarea.input {
 .reviews-pagination li.active {
   background-color: #d50000;
   border-color: #d50000;
-  color: #FFF;
+  color: #000;
   cursor: default;
 }
 
@@ -1892,7 +1895,7 @@ textarea.input {
   height: 40px;
   font-weight: 700;
   background: #d50000;
-  color: #FFF;
+  color: #000;
   border: none;
   border-radius: 0px 40px 40px 0px;
 }
@@ -1902,7 +1905,7 @@ textarea.input {
   height: 40px;
   font-weight: 700;
   background: #d50000;
-  color: #FFF;
+  color: #000;
   border: none;
   border-radius: 40px 40px 40px 40px;
  float: center;
@@ -1943,23 +1946,25 @@ textarea.input {
 ===========================================================*/
 
 #footer {
-  background:  #1b5e20;
+  background:  white;
   color: #B9BABC;
+  border-top: 1px solid #000;
 }
 
 #bottom-footer {
-  background: #00c853;
+  background:#fafafa;
+  border-top: 1px solid black;
 }
 
 .footer {
-  margin: 30px 0px;
+  margin: 15px 0px;
 }
 
 .footer .footer-title {
-  color: #FFF;
+  color: #000;
   text-transform: uppercase;
   font-size: 18px;
-  margin: 0px 0px 30px;
+  margin: 0px 0px 15px;
 }
 
 .footer-links li+li {
@@ -1982,9 +1987,10 @@ textarea.input {
 }
 
 .copyright {
-  margin-top: 30px;
+  margin-top: 15px;
   display: block;
   font-size: 12px;
+  color:black;
 }
 
 .footer-payments li {
@@ -1993,7 +1999,7 @@ textarea.input {
 }
 
 .footer-payments li a {
-  color:  #1b5e20;
+  color:  black;
   font-size: 36px;
   display: block;
 }
@@ -2036,7 +2042,7 @@ textarea.input {
 }
 
 .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
-  color: #FFF;
+  color: #000;
 }
 
 .slick-prev {
@@ -2200,14 +2206,14 @@ textarea.input {
   background:rgb(248, 16, 16);
    height:43px;
     line-height:34px; 
-    color: #fff;
+    color: #000;
   }
 .carousel-control {
   top: 50%;
 }
 .homCar h4 
 {background-color: #eb0000;
-   color: #fff;
+   color: #000;
    padding: 11px 4px;
    font-size: 26px;text-transform: uppercase;
    float: left;
