@@ -1992,7 +1992,16 @@ textarea.input {
   font-size: 12px;
   color:black;
 }
-
+.btn {
+  border-radius: 2px;
+    font-family: Roboto,sans-serif;
+    color: #ffffff !important;
+    font-size: 16px;
+    background: #d50000;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+}
 .footer-payments li {
   display: inline-block;
   margin-right: 5px;
