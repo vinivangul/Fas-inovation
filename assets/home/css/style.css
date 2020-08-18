@@ -8,6 +8,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #333;
+  background-color: #fff;
+}
+.full-body{
   background-color: #f2f2f2;
 }
 
@@ -385,7 +388,7 @@ textarea.input {
 	Logo
 \*----------------------------*/
 
-#header {
+#header{
   padding-top: 2px;
   padding-bottom: 2px;
   background-color:  #fff;
