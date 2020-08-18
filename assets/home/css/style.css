@@ -13,7 +13,12 @@ body {
 .full-body{
   background-color: #f2f2f2;
 }
-
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 h1, h2, h3, h4, h5, h6 {
   color: #2B2D42;
   font-weight: 700;
@@ -653,8 +658,13 @@ textarea.input {
   position: relative;
   overflow: hidden;
   margin: 15px 0px;
-}
 
+}
+.shop-control{
+  background-color: #FFF;
+  padding-top: 10px;
+  padding bottom: 10px;
+}
 .shop:before {
   content: "";
   position: absolute;
@@ -685,7 +695,7 @@ textarea.input {
 
 .shop .shop-img {
   position: relative;
-  background-color: #E4E7ED;
+  background-color: #fff;
   z-index: -1;
 }
 
@@ -710,21 +720,24 @@ textarea.input {
 }
 
 .shop .shop-body h3 {
-  color: #FFF;
+  color: #000;
 }
 
 .shop .shop-body .cta-btn {
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
 }
 
 /*=========================================================
 	05 -> HOT DEAL
 ===========================================================*/
+.title-page{
+  background-color: #FFF;
+}
 
 #hot-deal.section {
-  padding: 60px 0px;
-  margin: 30px 0px;
+  padding: 120px 120px;
+  margin: 0px 0px;
   background-color: #E4E7ED;
   background-image: url('../img/hotdeal.png');
   background-position: center;
@@ -1010,7 +1023,9 @@ textarea.input {
   opacity: 1;
   visibility: visible;
 }
-
+.topselling-page{
+  background-color: #FFF;
+}
 /*----------------------------*\
 	Widget product
 \*----------------------------*/
@@ -1087,7 +1102,15 @@ textarea.input {
   border: none;
   color: #FFF;
 }
-
+.newsletter-page{
+  background-color: #FFF;
+}
+.widget-page{
+  background-color: #FFF;
+}
+.hotdeal-page{
+  background-color: #FFF; 
+}
 /*----------------------------*\
 	Products slick
 \*----------------------------*/
