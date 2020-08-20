@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 
 /*----------------------------*\
 	Typography
@@ -578,6 +581,7 @@ textarea.input {
   background-color: #fff;
   margin-top: 100px;
   padding: 15px;
+  width:100%;
 }
 
 .sec-page{
