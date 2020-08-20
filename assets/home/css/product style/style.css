@@ -3,7 +3,9 @@
 /*=========================================================
 	06 -> PRODUCT
 ===========================================================*/
-
+.product-store{
+  background-color: white;
+}
 .product .product-old-price {
   color: #F8694A;
   font-size: 70%;
@@ -18,7 +20,7 @@
 }
 
 .product .product-rating>i.empty {
-  color: #DADADA;
+  color:#F8694A;
 }
 
 .product .product-label>span {
@@ -94,7 +96,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FFF;
+  background-color: #fff;
   opacity: 0;
   visibility: hidden;
   z-index: 0;
@@ -143,7 +145,7 @@
 }
 
 .product.product-single .product-body {
-  padding: 15px;
+  padding: 5px;
 }
 
 .product.product-single .product-price {
@@ -160,7 +162,7 @@
 }
 
 .product.product-single .product-btns {
-  margin-top: 20px;
+  margin-top: 5px;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.3s all;
@@ -705,13 +707,13 @@
 ===========================================================*/
 
 .shiping-methods {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 /*-- shopping cart table --*/
 
 .shopping-cart-table>tbody>tr>td, .shopping-cart-table>tbody>tr>th, .shopping-cart-table>tfoot>tr>td, .shopping-cart-table>tfoot>tr>th, .shopping-cart-table>thead>tr>td, .shopping-cart-table>thead>tr>th {
-  padding: 15px 0px;
+  padding: 5px 10px;
   vertical-align: middle;
   border-top: 1px solid #DADADA;
 }
@@ -732,7 +734,7 @@
 }
 
 .shopping-cart-table>tfoot>tr>td:not(.empty), .shopping-cart-table>tfoot>tr>th:not(.empty) {
-  padding: 15px;
+  padding: 5px;
   background-color: #F6F7F8;
   border: 1px solid #DADADA;
 }
@@ -747,7 +749,7 @@
 }
 
 .shopping-cart-table>tbody>tr>.qty .input {
-  width: 90px;
+  width: 30px;
 }
 
 .shopping-cart-table>tbody>tr>.price {
@@ -806,7 +808,7 @@
 
 .footer-copyright {
   margin-top: 15px;
-  text-transform: uppercase;
+  text-transform: upperca se;
   font-size: 14px;
 }
 
