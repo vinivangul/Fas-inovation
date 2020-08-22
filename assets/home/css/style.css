@@ -151,6 +151,9 @@ textarea.input {
   padding: 10px;
   margin: 10px;
 }
+.stew {
+  background-color: #fff;
+}
 
 .acc-header{
   text-align: center;
@@ -168,6 +171,7 @@ margin: 10px;
 }
 hr{
   height: 2px;
+  background:#d50000;
 }
 /*-- Select input --*/
 
