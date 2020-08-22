@@ -16,6 +16,9 @@
   color: #F8694A;
   font-size: 70%;
 }
+.view-all-news{
+  background-color: #fff;
+}
 
 .product .product-rating {
   display: inline-block;
