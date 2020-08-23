@@ -286,8 +286,8 @@ hr{
 \*----------------------------*/
 
 .section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 1S0px;
 }
 
 .section-title {
@@ -612,7 +612,6 @@ hr{
 \*----------------------------*/
 .first-page{
   background-color: #fff;
-  margin-top: 100px;
   padding: 15px;
   width:100%;
 }
@@ -1108,8 +1107,8 @@ hr{
 \*----------------------------*/
 
 .products-slick .slick-list {
-  padding-bottom: 60px;
-  margin-bottom: -60px;
+  padding-bottom: 30px;
+  margin-bottom: -30px;
   z-index: 2;
 }
 
@@ -1123,8 +1122,8 @@ hr{
   opacity: 0;
   visibility: hidden;
   overflow-y: hidden;
-  padding-bottom: 60px;
-  margin-bottom: -60px;
+  padding-bottom: 30px;
+  margin-bottom: -30px;
 }
 
 .products-tabs>.tab-pane.active {
