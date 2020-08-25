@@ -619,6 +619,7 @@ hr{
 .first-page{
   background-color: #fff;
   padding: 15px;
+  margin-top: 30px;
   width:100%;
 }
 
@@ -813,7 +814,7 @@ hr{
 }
 
 .product .product-img>img {
-  width: 40%;
+  width: 100%;
 }
 
 .product .product-img .product-label {
@@ -843,6 +844,7 @@ hr{
 .product .product-body {
   position: relative;
   padding: 15px;
+  scroll-padding-bottom: 15px;
   background-color: #FFF;
   text-align: center;
   z-index: 20;
@@ -924,7 +926,7 @@ hr{
 .product .product-body .product-btns>button:hover {
   background-color: #E4E7ED;
   color: #d50000;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .product .product-body .product-btns>button .tooltipp {
@@ -962,7 +964,6 @@ hr{
   right: 1px;
   bottom: 1px;
   padding: 15px;
-  background: #fafafa;
   text-align: center;
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -2369,8 +2370,9 @@ hr{
   }
 .carousel-control, .carousel-control:hover {
   background:rgb(248, 16, 16);
-   height:43px;
-    line-height:34px; 
+   height:23px;
+   border-radius: 50%;
+    line-height:20px; 
     color: #fff;
   }
 .carousel-control {
@@ -2418,10 +2420,34 @@ hr{
 .control-label.alignL, .alignL{
   text-align:left;
 }
+/*----------------------------*\
+	main
+\*----------------------------*/
+.flashdeal{
+  background-color: red;
+  padding: 10px;
+}
+.flashdeal .fa {
+  color: orange;
+  font-size: 30px;
+  padding: 10px;
+}
 
 /*----------------------------*\
 	Category nav
 \*----------------------------*/
+.listing{
+  margin-left: 20px;
+  font-weight: 500px;
+  margin-top: 15px;
+  padding: 5px;
+  margin-bottom: 0;
+  background-color: #f5f5f5;
+}
+.listing a{
+  font-size: large;
+  
+}
 
 .category-nav {
   float: left;
@@ -2659,14 +2685,5 @@ hr{
   .menu-nav .menu-list>li>a {
     color: #30323A;
   }
-  #navigation.shadow:after {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 99;
-  }
+ 
 }
