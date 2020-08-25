@@ -6,9 +6,18 @@
 .product-store{
   background-color: white;
 }
+.product-store-2{
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
 .product .product-old-price {
   color: #F8694A;
   font-size: 70%;
+}
+.view-all-news{
+  background-color: #fff;
 }
 
 .product .product-rating {
@@ -363,7 +372,7 @@
 .noUi-tooltip {
   border: none;
   color: #FFF;
-  background: #fff;
+  background: #d50000;
   border-radius: 0px;
 }
 
