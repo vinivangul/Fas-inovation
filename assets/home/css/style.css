@@ -314,6 +314,7 @@ hr{
   display: inline-block;
   text-transform: uppercase;
   margin: 0px;
+  padding-top: 20px;
 }
 
 .section-title .section-nav {
@@ -357,7 +358,7 @@ hr{
 }
 
 .section-title .section-nav .products-slick-nav {
-  top: 0px;
+  top: 25px;
   right: 0px;
 }
 
@@ -368,7 +369,6 @@ hr{
 #breadcrumb {
   padding: 30px 0px;
   background: white;
-  border-bottom: 1px solid #ede4e4;
   margin-bottom: 30px;
   color: #000;
 }
@@ -444,18 +444,20 @@ hr{
 \*----------------------------*/
 
 #header{
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color:  #fff;
   color: #000;
 }
 
 .header-logo {
   float: left;
+  padding: 15px;
 }
 
 .header-logo .logo img {
   display: block;
+  padding: 15px;
 }
 
 /*----------------------------*\
@@ -463,7 +465,7 @@ hr{
 \*----------------------------*/
 
 .header-search {
-  padding: 15px 0px;
+  padding: 50px 0px;
   padding-left: 100px;
 }
 
@@ -499,7 +501,8 @@ hr{
 
 .header-ctn {
   float: right;
-  padding: 15px 0px;
+  padding: 45px 0px;
+  
 }
 
 .header-ctn>div {
@@ -1037,15 +1040,23 @@ hr{
   position: relative;
 }
 
+.topselling{
+  background-color: #fff;
+  margin-right: .5px;
+  margin-left: .5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
 .product-widget+.product-widget {
-  margin: 30px 0px;
+  margin: px 0px;
 }
 
 .product-widget .product-img {
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 60px;
+  width: 50px;
 }
 
 .product-widget .product-img>img {
@@ -1053,7 +1064,7 @@ hr{
 }
 
 .product-widget .product-body {
-  padding-left: 75px;
+  padding-left: 80px;
   min-height: 60px;
 }
 
@@ -1114,7 +1125,12 @@ hr{
 }
 .widget-page{
   background-color: #FFF;
+  margin-top: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
 }
+
 .hotdeal-page{
   background-color: #FFF; 
 }
