@@ -618,6 +618,9 @@ hr{
 /*----------------------------*\
 	pages
 \*----------------------------*/
+.step-below{
+  margin-top: 10px;
+}
 .first-page{
   background-color: #fff;
   padding: 15px;
@@ -2391,7 +2394,7 @@ FOOTER
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  height: 367px;
+  height: 400px;
   padding: 5px;
 }
 .swap-page{
@@ -2405,7 +2408,8 @@ FOOTER
 .well{
   background-color: white;
   padding: 2px;
-  margin-right: -25px;
+  margin-right: -20px;
+  margin-left: -70px;
 }
 .carousel-control.right{
   right: -15600px;
@@ -2460,16 +2464,18 @@ FOOTER
 
 .category-nav .category-list {
   position: absolute;
-  margin-top: 3px;
+  margin-top: -46px;
   background-color: #fff;
-  height: 367px;
+  height: 450px;
   border-radius: 5px;
   z-index: 50;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
-.responsive-nav{
-
+.overhead{
+background-color: #f2f2f2;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
 }
 
 .category-nav.show-on-click .category-list {
@@ -2499,7 +2505,9 @@ FOOTER
   text-transform: uppercase;
 }
 
-.category-nav .category-list>li>a:hover, .category-nav .category-list>li>a:focus, .category-nav .category-list>li.dropdown.open>a {
+.category-nav .category-list>li>a:hover, 
+.category-nav .category-list>li>a:focus, 
+.category-nav .category-list>li.dropdown.open>a {
   color: #eb0000;;
 }
 
