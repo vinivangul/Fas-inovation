@@ -2383,10 +2383,10 @@ RESPONSIVE
   }
 .carousel-control, .carousel-control:hover {
   background:rgb(248, 16, 16);
-   height:23px;
-   border-radius: 50%;
-    line-height:20px; 
-    color: #fff;
+  height: 49px;
+  border-radius: 50%;
+  line-height: 44px;
+  color: #fff;
   }
 .carousel-control {
   top: 50%;
