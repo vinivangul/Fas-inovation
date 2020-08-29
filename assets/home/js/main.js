@@ -19,6 +19,7 @@
 			$(this).toggleClass("fa-heart fa-heart-o");
 		});
 	});	
+	
 	// Products Slick
 	$('.products-slick').each(function() {
 		var $this = $(this),
