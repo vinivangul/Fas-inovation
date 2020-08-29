@@ -142,19 +142,25 @@ textarea.input {
 }
 /*-- my Account  --*/
 .btn-danger {
-  width: 200px;
+  width: 150px;
   padding: 10px;
+  padding-left: 10px;
   margin: 10px;
 }
 .btn-light{
-  width: 200px;
+  width: 150px;
   padding: 10px;
+  padding-left: 10px;
   margin: 10px;
 }
 .stew {
   background-color: #fff;
 }
+.myacc{
+  background-color: #fff;
+  width: 100%;
 
+}
 .acc-header{
   text-align: center;
   margin-top: 5px;
@@ -180,7 +186,7 @@ hr{
   background: #FFF;
   border: 1px solid #E4E7ED;
   height: 40px;
-  width: 160px;
+  width: 120px;
 }
 .input-select option :hover{
   background-color: #d50000;
@@ -481,7 +487,7 @@ hr{
 
 .header-search form .search-btn {
   height: 40px;
-  width: 100px;
+  width: 90px;
   background: #d50000;
   color: black;
   font-weight: 700;
@@ -1070,10 +1076,9 @@ hr{
   color: #FFF;
 }
 .newsletter-page{
-  background-color: #FFF;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
 }
 .widget-page{
@@ -2442,7 +2447,19 @@ FOOTER
   font-size: 20px;
   padding: 5px;
 }
+/*----------------------------*\
+	About 
+\*----------------------------*/
+.about-pag{
+  padding: 15px;
+}
+.rollet{
+  border-radius: 5px;
+}
 
+.rollet button{
+  border-radius: 5px;
+}
 /*----------------------------*\
 	Category nav
 \*----------------------------*/
