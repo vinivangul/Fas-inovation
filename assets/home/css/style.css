@@ -1469,7 +1469,7 @@ hr{
 }
 
 /*=========================================================
-	08 -> PRODUCT DETAILS PAGE
+ PRODUCT DETAILS PAGE
 ===========================================================*/
 
 /*----------------------------*\
@@ -2229,9 +2229,22 @@ FOOTER
   position: static;
   margin: 15px 0px;
 }
-
+/*----------------------------*\
+user details
+\*----------------------------*/
+.swap-page{
+  background-color: #fff;
+  padding: 10px;
+  color: #282828;
+}
+.swap-page a{
+line-height: 15px;
+}
+.step{
+  background-color: #fff;
+  height: 120px;
 /*=========================================================
-	13 -> RESPONSIVE
+RESPONSIVE
 ===========================================================*/
 
 @media only screen and (max-width: 1201px) {}
