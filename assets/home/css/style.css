@@ -29,14 +29,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #2B2D42;
+  color: #000;
   font-weight: 500;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
 }
 
 a:hover, a:focus {
-  color: #d50000;
+  color: #fff;
   text-decoration: none;
   outline: none;
 }
@@ -174,6 +174,15 @@ height: 50px;
 width: 250px;
 padding: 10px;
 margin: 10px;
+}
+
+.flatset:hover{
+  background-color: #282828;
+  color: #fff;
+}
+.flatset:focus{
+
+  color: #fff;
 }
 hr{
   height: 2px;
@@ -2080,7 +2089,7 @@ NEWSLETTER
   text-align: center;
   line-height: 40px;
   border: 1px solid #E4E7ED;
-  background-color: #FFF;
+  background-color: #d50000;;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
@@ -2431,6 +2440,11 @@ FOOTER
 .control-label.alignL, .alignL{
   text-align:left;
 }
+
+.carousel-inner .carousel-item .img-fluid{
+  display:block;
+  margin: auto;
+}
 /*----------------------------*\
 	main
 \*----------------------------*/
@@ -2447,6 +2461,14 @@ FOOTER
   font-size: 20px;
   padding: 5px;
 }
+.flashdeal a{
+  color: #fff;
+  padding:10px;
+}
+
+.flashdeal a:hover{
+  color: #282828s;
+}
 /*----------------------------*\
 	About 
 \*----------------------------*/
@@ -2459,6 +2481,7 @@ FOOTER
 
 .rollet button{
   border-radius: 5px;
+  color: #fff;
 }
 /*----------------------------*\
 	Category nav
