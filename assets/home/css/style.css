@@ -8,7 +8,7 @@
 \*----------------------------*/
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Segoe UI","Helvetica Neue",Arial,sans-serif;
   font-weight: 400;
   color: #282828;
   background-color: #fff;
@@ -16,6 +16,7 @@ body {
 .full-body{
   background-color: #f2f2f2;
 }
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -2232,17 +2233,18 @@ FOOTER
 /*----------------------------*\
 user details
 \*----------------------------*/
-.swap-page{
+.page-swap{
   background-color: #fff;
   padding: 10px;
   color: #282828;
 }
-.swap-page a{
+.page-swap {
 line-height: 15px;
 }
-.step{
+.page-step{
   background-color: #fff;
   height: 120px;
+}
 /*=========================================================
 RESPONSIVE
 ===========================================================*/
@@ -2519,7 +2521,8 @@ RESPONSIVE
   position: absolute;
   margin-top: -46px;
   background-color: #fff;
-  height: 450px;
+  height: 448px;
+  line-height: 35px;
   border-radius: 5px;
   z-index: 50;
   -webkit-transition: 0.3s all;
