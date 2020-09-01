@@ -30,8 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #000;
-  font-weight: 500;
+  color: #666;
+  font-weight: 400;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
 }
@@ -437,7 +437,7 @@ hr{
 }
 
 .header-links li a {
-  color:black;
+  color:#666;
 }
 
 .header-links li a:hover {
@@ -453,12 +453,13 @@ hr{
 	Logo
 \*----------------------------*/
 
-#header{
-  padding-top: 5px;
-  padding-bottom: 5px;
+header{
   background-color:  #fff;
   color: #000;
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.12) !important;
 }
+
+
 
 .header-logo {
   float: left;
@@ -499,7 +500,7 @@ hr{
   height: 40px;
   width: 90px;
   background: #d50000;
-  color: black;
+  color: #fff;
   font-weight: 700;
   border: none;
   border-radius: 0px 40px 40px 0px;
@@ -2082,6 +2083,8 @@ NEWSLETTER
   margin-right: 0px;
 }
 
+
+
 .newsletter .newsletter-follow li a {
   position: relative;
   display: block;
@@ -2090,7 +2093,9 @@ NEWSLETTER
   text-align: center;
   line-height: 40px;
   border: 1px solid #E4E7ED;
-  background-color: #d50000;;
+  background-color: #d50000;
+  color: white;
+
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
@@ -2657,3 +2662,5 @@ border-top-left-radius: 5px;
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
 }
+
+
