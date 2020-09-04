@@ -1163,7 +1163,6 @@ header{
 
 .title-page {
     color: #212529;
-    background-color: gray; 
     padding: 15px;
   }
   .padding-y {
@@ -2209,12 +2208,12 @@ NEWSLETTER
   color: #d50000;
 }
 
-/*=========================================================
+/*=============================
 FOOTER
-===========================================================*/
+==============================*/
 
 #footer {
-  background:  #fff;
+  background:  #e8e8e8;
   color: Black;
 }
 
@@ -2227,7 +2226,7 @@ FOOTER
 }
 
 .footer .footer-title {
-  color: #FFF;
+  color: #333;
   text-transform: uppercase;
   font-size: 18px;
   margin: 0px 0px 30px;
