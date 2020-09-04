@@ -1233,7 +1233,12 @@ ul, ol {
   .input-spinner .btn {
     width: 36px;
     text-align: center; }
-
+.start-p{
+text-align: end;
+}
+.acc-header li a button{
+width: 150px;
+}
 .checkbox-btn {
   position: relative; }
   .checkbox-btn input {
@@ -1266,7 +1271,7 @@ body {
 
 /* ================ PAGES HEADER ================== */
 .section-pagetop {
-  padding: 45px 0; }
+  padding: 5px 0; }
 
 .slider-home-banner .carousel-item img {
   width: 100%;
