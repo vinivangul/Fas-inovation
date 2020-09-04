@@ -1157,6 +1157,110 @@ header{
 /*---------------------
   Featured
 -----------------------*/
+
+.section-pagetop {
+  padding: 15px 0; }
+
+.title-page {
+    color: #212529;
+    background-color: gray; 
+    padding: 15px;
+  }
+  .padding-y {
+    padding-top: 30px;
+    padding-bottom: 30px; 
+  }
+  .btn-light {
+    background-color: #fff;
+    border-color: #e5e7ea; }
+    .btn-light i {
+      color: #969696; }
+    .btn-light:hover {
+      background-color: #fff;
+      border-color: #9099a6; 
+    }
+    .box {
+      padding: 18px;
+      background: #fff;
+      border: 1px solid #e5e7ea; }
+      .box img {
+        max-width: 100%; }
+  
+  .btn-light.active i {
+    color: #ff6a00; 
+  }
+  
+  .card-body  {
+    background-size: cover;
+    position: relative;
+    z-index: 10; 
+  }
+  .card-body  {
+    background-size: cover;
+    position: relative;
+    z-index: 10; }
+    .card-body::after {
+      content: '';
+      display: table;
+      clear: both; }
+
+      .img-sm {
+        width: 80px;
+        height: 80px; 
+        -o-object-fit: cover;
+     object-fit: cover;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+      }
+      
+  .text {
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    line-height: 1.2; }
+  .widget-header a {
+    color: #212529; }
+  .widget-header form {
+    min-width: 280px; }
+  .widget-header:hover i {
+    color: #212529;
+   }
+
+.icontext {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle; }
+  .icontext p {
+    margin-bottom: 0; }
+  .icontext .text {
+    width: 100%;
+    color: #212529; }
+  .icontext .icon {
+    position: relative;
+    margin-right: 10px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0; }
+  .icontext .title {
+    display: block;
+    margin-bottom: 0; }  
+
+/*---------------------
+  Profile
+-----------------------*/
+
+
 .view-all-page{
   background-color: #f2f2f2;
 }

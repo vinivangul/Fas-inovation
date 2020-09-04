@@ -824,6 +824,72 @@ a[class*='card'] {
 .item-slide .card-product-grid {
   margin-bottom: 0; }
 
+/*=========================================================
+FOOTER
+===========================================================*/
+
+#footer {
+  background:  #fff;
+  color: Black;
+}
+
+#bottom-footer {
+  background: #fafafa;
+}
+
+.footer {
+  margin: 30px 0px;
+}
+
+.footer .footer-title {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0px 0px 30px;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+.footer-links li+li {
+  margin-top: 15px;
+}
+
+.footer-links li a {
+  color: Black;
+}
+
+.footer-links li i {
+  margin-right: 15px;
+  color: #d50000;
+  width: 14px;
+  text-align: center;
+}
+
+.footer-links li a:hover {
+  color: #d50000;
+}
+
+.copyright {
+  margin-top: 30px;
+  display: block;
+  font-size: 12px;
+  color: #000;
+}
+
+.footer-payments li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer-payments li a {
+  color:  black;
+  font-size: 36px;
+  display: block;
+}
+
+
 /* LARGE LIST STYLE PRODUCT ITEM */
 .card-product-list {
   margin-bottom: 20px; }
