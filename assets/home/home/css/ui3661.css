@@ -231,10 +231,10 @@ article:after,
   background-color: #fff; }
 
 .bg-orange {
-  background-color: #ff6a00; }
+  background-color: #fa3434; }
 
 .bg-green {
-  background-color: #00b517; }
+  background-color: #fa3434; }
 
 .bg-blue {
   background-color: #12225b; }
@@ -701,7 +701,7 @@ ul.row, ul.row-sm {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 13px;
-    color: #00b517;
+    color: #fa3434;
     position: absolute;
     top: 3px;
     left: 0;
@@ -715,7 +715,7 @@ ul.row, ul.row-sm {
     margin-bottom: 7px; }
   .list-normal li:before {
     content: "\2022";
-    color: #ff6a00;
+    color: #fa3434;
     display: inline-block;
     width: 1em;
     margin-left: -1em; }
@@ -823,6 +823,72 @@ a[class*='card'] {
 
 .item-slide .card-product-grid {
   margin-bottom: 0; }
+
+/*=========================================================
+FOOTER
+===========================================================*/
+
+#footer {
+  background:  #e8e8e8;
+  color: Black;
+}
+
+#bottom-footer {
+  background: #fafafa;
+}
+
+.footer {
+  margin: 30px 0px;
+}
+
+.footer .footer-title {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0px 0px 30px;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+.footer-links li+li {
+  margin-top: 15px;
+}
+
+.footer-links li a {
+  color: Black;
+}
+
+.footer-links li i {
+  margin-right: 15px;
+  color: #d50000;
+  width: 14px;
+  text-align: center;
+}
+
+.footer-links li a:hover {
+  color: #d50000;
+}
+
+.copyright {
+  margin-top: 30px;
+  display: block;
+  font-size: 12px;
+  color: #000;
+}
+
+.footer-payments li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer-payments li a {
+  color:  black;
+  font-size: 36px;
+  display: block;
+}
+
 
 /* LARGE LIST STYLE PRODUCT ITEM */
 .card-product-list {
@@ -1167,7 +1233,12 @@ a[class*='card'] {
   .input-spinner .btn {
     width: 36px;
     text-align: center; }
-
+.start-p{
+text-align: end;
+}
+.acc-header li a button{
+width: 150px;
+}
 .checkbox-btn {
   position: relative; }
   .checkbox-btn input {
@@ -1200,7 +1271,7 @@ body {
 
 /* ================ PAGES HEADER ================== */
 .section-pagetop {
-  padding: 45px 0; }
+  padding: 5px 0; }
 
 .slider-home-banner .carousel-item img {
   width: 100%;

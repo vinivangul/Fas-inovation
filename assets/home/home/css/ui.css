@@ -31,6 +31,44 @@ a:hover {
           flex: 1 1 auto;
   padding: 30px; }
 
+  /*----------------------------*\
+	Top header
+\*----------------------------*/
+
+#top-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #fafafa;
+    z-index: 22;
+    font-size: 12px;
+}
+
+.header-links li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 12px;
+}
+
+.section-cart{
+  text-align :center;
+}
+.header-links li:last-child {
+  margin-right: 0px;
+}
+
+.header-links li a {
+  color:#666;
+}
+
+.header-links li a:hover {
+  color: #d50000;
+}
+
+.header-links li i {
+  color: #d50000;
+  margin-right: 5px;
+}
 /* =================  DEFINED VARIABLES =================== */
 .icon-xs, .icon-sm, .icon-md, .icon-lg {
   display: inline-block;
