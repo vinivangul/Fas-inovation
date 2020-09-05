@@ -2424,9 +2424,7 @@ RESPONSIVE
   left: -15600px;
 }
 .swap{
-  background-color: white;
-  background: url("/assets/home/img/product/banner06.jpg");
-  background-position: center;
+    background-color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -2435,9 +2433,13 @@ RESPONSIVE
   padding: 5px;
 }
 .swap-page{
-  padding: 2px;
+  background-color: white;
+  padding: 10px;
   padding-top: 15px;
 }
+.card-product-grid .img-wrap[
+  height: 250px;
+]
 .swap-page button{
   width: 100%;
  }
