@@ -59,7 +59,6 @@ ul, ol {
   border: none;
   border-radius: 40px;
   color: #FFF;
-  text-transform: uppercase;
   font-weight: 700;
   text-align: center;
   -webkit-transition: 0.2s all;
@@ -196,7 +195,7 @@ hr{
   background: #FFF;
   border: 1px solid #E4E7ED;
   height: 40px;
-  width: 120px;
+  width: 150px;
 }
 .input-select option :hover{
   background-color: #d50000;
@@ -1090,6 +1089,7 @@ header{
   color: #FFF;
 }
 .newsletter-page{
+  background-color: #FFF;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1402,7 +1402,10 @@ header{
 /*----------------------------*\
 	Aside
 \*----------------------------*/
-
+.aside {
+  background-color: #fff;
+  padding: 10px;
+}
 .aside+.aside {
   margin-top: 30px;
 }
@@ -2109,11 +2112,6 @@ CHECKOUT PAGE
 NEWSLETTER
 ===========================================================*/
 
-#newsletter.section {
-  border-bottom: 3px solid #d50000;
-  margin-top: 30px;
-}
-
 .newsletter{
   text-align: center;
 }
@@ -2344,17 +2342,61 @@ FOOTER
 /*----------------------------*\
 user details
 \*----------------------------*/
-.page-swap{
-  background-color: #fff;
+.page-swap {
   padding: 10px;
   color: #282828;
+  text-align: center;
 }
-.page-swap {
-line-height: 15px;
+
+.page-swap input{
+  text-align: center;
+}
+.swaping{
+  background-color: #fff;
+  height: ;
+}
+.swaping:hover .overlay-effect,.overlay-effect, .overlay-effect {
+  opacity: 1;
+  cursor: pointer;
+}
+.swap-backg{
+  background-image: url("/assets/home/img/swap.jpg");
+  background-size: cover;
 }
 .page-step{
-  background-color: #fff;
-  height: 120px;
+  height: 150px;
+  padding: 15px;
+ position: relative;
+ left: 10%;
+}
+.overlay-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow:hidden;
+}
+
+.page-step button{
+  background-color: #d50000;
+  width: 55%;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+.page-step button a{
+  color: #fff;
+}
+.page-step button:hover{
+  background-color: gray;
+}
+.swap-icon img{
+  width: 30%;
+  margin-top: 90px;
 }
 /*=========================================================
 RESPONSIVE
@@ -2527,7 +2569,8 @@ RESPONSIVE
   left: -15600px;
 }
 .swap{
-    background-color: white;
+  background-color: white;
+  background-image: url("/assets/home/img/product01.png");
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -2540,11 +2583,17 @@ RESPONSIVE
   padding: 10px;
   padding-top: 15px;
 }
-.card-product-grid .img-wrap[
+.card-product-grid .img-wrap{
   height: 250px;
-]
-.swap-page button{
+}
+
+.swap-btn button{
   width: 100%;
+  padding: 10px;
+  border-radius: 50%;
+ }
+ .swap-btn{
+   margin-top: 80px;
  }
   
 .well{
@@ -2635,7 +2684,7 @@ RESPONSIVE
   margin-top: -46px;
   background-color: #fff;
   height: 448px;
-  line-height: 35px;
+  line-height: 20px;
   border-radius: 5px;
   z-index: 50;
   -webkit-transition: 0.3s all;
@@ -2670,8 +2719,7 @@ border-top-left-radius: 5px;
 
 .category-nav .category-list>li>a {
   display: block;
-  padding: 8px;
-  text-transform: uppercase;
+  padding: 15px;
 }
 
 .category-nav .category-list>li>a:hover, 
