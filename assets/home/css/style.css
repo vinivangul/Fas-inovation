@@ -2593,10 +2593,14 @@ RESPONSIVE
 .swap-btn button{
   width: 100%;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 5px;
  }
  .swap-btn{
    margin-top: 80px;
+ }
+ .swap-btn button:hover{
+   background-color: grey;
+   color: white;
  }
   
 .well{
